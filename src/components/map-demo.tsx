@@ -32,14 +32,17 @@ export function WorldMapDemo() {
             </div>
           </div>
           <div className="flex gap-4 my-4 items-center bg-white/30 backdrop-blur-sm p-4 border-[0.0125rem] rounded-2xl">
-            <button className="bg-black w-fit shadow-xs border-[0.0125rem] text-white px-4 py-2 rounded-full text-sm font-medium flex items- gap-2 active:scale-95">
+            <a
+              href="https://expo.dev/accounts/beeply-studios/projects/lmk/builds/d7dbf859-5766-4002-978a-13ff07ed0cbc"
+              className="bg-black w-fit shadow-xs border-[0.0125rem] text-white px-4 py-2 rounded-full text-sm font-medium flex items- gap-2 active:scale-95"
+            >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/1022px-Android_robot.svg.png?20180121030125"
                 alt=""
                 className="size-6"
               />
               Download for Android
-            </button>
+            </a>
             <iframe
               src="https://ghbtns.com/github-btn.html?user=beeplystudios&repo=lmk&type=star&count=true&size=large"
               frameBorder="0"
